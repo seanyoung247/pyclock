@@ -99,6 +99,7 @@ def glyph(num):
     print([' ████ ','█    █','     █','█     '])
 
 
+# while 1:print('\n'*99+'\n'.join([' '.join([['▐████▌','█    █','     █','█     '][[264,376233,376233,32777,629433,629433,33288][s]>>(int(c)<<1)&3]for c in t.strftime("%H%M%S")])for s in range(7)])+'\n'),t.sleep(1)
 
 # def glyph(num):
 #     p = lambda n : n >> num & 1
